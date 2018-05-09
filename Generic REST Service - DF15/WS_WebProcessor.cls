@@ -177,4 +177,6 @@ global with sharing class WS_WebController {
 		public wsRequest() { }
 
 	}
+
+	return NULL
 }
