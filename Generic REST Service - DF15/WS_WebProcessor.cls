@@ -1,5 +1,5 @@
 @RestResource(urlMapping='/webprocessor/*')
-global with sharing class WS_WebProcessor {
+global with sharing class WS_WebController {
 
 /**
 *   {Purpose}  	-  	REST Webservice for other systems to consume
