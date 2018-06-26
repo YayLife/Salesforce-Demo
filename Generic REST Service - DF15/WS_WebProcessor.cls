@@ -85,7 +85,7 @@ global with sharing class WS_WebController {
 			strMessageDetail = objAccount.Id;
 
 			// Result is good, proceed.
-			bolProcessedAction = true;
+			bolProcessedAction = false;
 
 		} catch(Exception ex) {
 			processResponse(false, 9999, reqBody.actionName, ex.getMessage());
@@ -177,6 +177,5 @@ global with sharing class WS_WebController {
 		public wsRequest() { }
 
 	}
-
-	return NULL
+ 
 }
